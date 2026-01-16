@@ -1,3 +1,6 @@
+# Submission Notes
+* I used code LLMs for nice formatting and commenting. 
+
 # Project 1
 Building a FAST[AQ] Parser + Building a DNA -> RNA Transcriber
 

@@ -1,7 +1,6 @@
 [build-system]
 requires = [
 	"flit_core >=3.2,<4",
-	"python_version >= '3.7'"
 	]
 build-backend = "flit_core.buildapi"
 
@@ -12,11 +11,12 @@ pythonpath = [
 
 [project]
 name = "seqparser"
-authors = [{name = "Han Chen", email = "han.chen@ucsf.edu"}]
+authors = [{name = "Alex Ho", email = "alex.ho2@ucsf.edu"}]
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
+requires-python = ">=3.7"
 dependencies = [
     "pytest"
 ]
